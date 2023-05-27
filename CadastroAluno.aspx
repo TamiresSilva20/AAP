@@ -28,42 +28,42 @@
             <br />
           
             <asp:Label ID="lblNome" runat="server" Text="Nome:"></asp:Label>
-            <asp:TextBox ID="txtNome" runat="server"></asp:TextBox>
+            <asp:TextBox ID="txtNome" runat="server" required ></asp:TextBox>
             <br />
             <br />
             <asp:Label ID="lblRg" runat="server" Text="RG:"></asp:Label>
-            <asp:TextBox ID="txtRg" runat="server"  ></asp:TextBox>
+            <asp:TextBox ID="txtRg" runat="server" required  ></asp:TextBox>
 &nbsp;
             <asp:Label ID="lblNasc" runat="server" Text="Nasc.:"></asp:Label>
             <asp:TextBox ID="txtNasc" runat="server" type="date"></asp:TextBox>
             &nbsp;
             <asp:Label ID="lblIdade" runat="server" Text="Idade: "  ></asp:Label> 
 
-            <asp:TextBox ID="txtIdade" runat="server"  ></asp:TextBox>
+            <asp:TextBox ID="txtIdade" runat="server"required   ></asp:TextBox>
             <br />
             <br />
             <asp:Label ID="lblEndereco" runat="server" Text="Endereço: "></asp:Label>
-            <asp:TextBox ID="txtEndereco" runat="server"></asp:TextBox>
+            <asp:TextBox ID="txtEndereco" runat="server"required ></asp:TextBox>
 &nbsp;
             <asp:Label ID="lblNumero" runat="server" Text="Nº: "></asp:Label>
-            <asp:TextBox ID="txtNumero" runat="server"></asp:TextBox>
+            <asp:TextBox ID="txtNumero" runat="server"required ></asp:TextBox>
             <br />
             <br />
             <asp:Label ID="lblbairro" runat="server" Text="Bairro: "></asp:Label>
-            <asp:TextBox ID="txtBairro" runat="server"></asp:TextBox>
+            <asp:TextBox ID="txtBairro" runat="server"required ></asp:TextBox>
 &nbsp;
             <asp:Label ID="lblCidade" runat="server" Text="Cidade: "></asp:Label>
-            <asp:TextBox ID="txtCidade" runat="server"></asp:TextBox>
+            <asp:TextBox ID="txtCidade" runat="server"required ></asp:TextBox>
             &nbsp;
             <asp:Label ID="lblCep" runat="server" Text="CEP: "></asp:Label>
             <asp:TextBox ID="txtCep" runat="server" name="txtCep" MaxLength="9" onkeyup="mascara_CEP()" AutoCompleteType="HomeZipCode"></asp:TextBox>
             <br />
             <br />
             <asp:Label ID="lblEmail" runat="server" Text="E-mail: "></asp:Label>
-            <asp:TextBox ID="txtEmail" runat="server" AutoCompleteType="Email"></asp:TextBox>
+            <asp:TextBox ID="txtEmail" runat="server" AutoCompleteType="Email"required ></asp:TextBox>
 &nbsp;
             <asp:Label ID="lblFone" runat="server" Text="Fone Res.: "></asp:Label>
-            <asp:TextBox ID="txtFone" runat="server" AutoCompleteType="HomePhone" name="txtFone" MaxLength="12" onkeyup="mascara_Fone()"></asp:TextBox>
+            <asp:TextBox ID="txtFone" runat="server" required AutoCompleteType="HomePhone" name="txtFone" MaxLength="12" onkeyup="mascara_Fone()"></asp:TextBox>
 &nbsp;<br />
             <br />
             <asp:Label ID="lblFoneCom" runat="server" Text="Fone Com: "></asp:Label>
@@ -81,48 +81,48 @@
             <hr />
             
             <asp:Label ID="lblEscola" runat="server" Text="Escola: "></asp:Label>
-            <asp:TextBox ID="txtEscola" runat="server"></asp:TextBox>
+            <asp:TextBox ID="txtEscola" runat="server"required ></asp:TextBox>
             <br />
             <br />
             <asp:Label ID="lblEnderecoE" runat="server" Text="Endereço: "></asp:Label>
-            <asp:TextBox ID="txtEnderecoE" runat="server"></asp:TextBox>
+            <asp:TextBox ID="txtEnderecoE" runat="server"required ></asp:TextBox>
 &nbsp;
             <asp:Label ID="lblNumeroE" runat="server" Text="Nº: "></asp:Label>
-            <asp:TextBox ID="txtNumeroE" runat="server"></asp:TextBox>
+            <asp:TextBox ID="txtNumeroE" runat="server"required ></asp:TextBox>
             <br />
             <br />
             <asp:Label ID="lblbairroE" runat="server" Text="Bairro: "></asp:Label>
-            <asp:TextBox ID="txtBairroE" runat="server"></asp:TextBox>
+            <asp:TextBox ID="txtBairroE" runat="server"required ></asp:TextBox>
 &nbsp;
             <asp:Label ID="lblCidadeE" runat="server" Text=" Cidade: "></asp:Label>
-            <asp:TextBox ID="txtCidadeE" runat="server" ></asp:TextBox>
+            <asp:TextBox ID="txtCidadeE" runat="server" required ></asp:TextBox>
             <br />
             <br />
             <asp:Label ID="lblFonesE" runat="server" Text="Fones:  "></asp:Label>
-            <asp:TextBox ID="txtFoneEsc" runat="server" AutoCompleteType="HomePhone" name="txtFoneEsc" MaxLength="9" onkeyup="mascara_FoneEsc()"></asp:TextBox>
+            <asp:TextBox ID="txtFoneEsc" runat="server" required AutoCompleteType="HomePhone" name="txtFoneEsc" MaxLength="9" onkeyup="mascara_FoneEsc()"></asp:TextBox>
             <br />
             <br />
             <asp:Label ID="lblCurso" runat="server" Text="Curso: "></asp:Label>
-            <asp:TextBox ID="txtCurso" runat="server"></asp:TextBox>
+            <asp:TextBox ID="txtCurso" runat="server"required ></asp:TextBox>
 &nbsp;
             <asp:Label ID="lblSerie" runat="server" Text="Série: "></asp:Label>
-            <asp:TextBox ID="txtSerie" runat="server" ></asp:TextBox>
+            <asp:TextBox ID="txtSerie" runat="server"required  ></asp:TextBox>
             &nbsp;
             <asp:Label ID="lblGrau" runat="server" Text="Grau: "></asp:Label>
-            <asp:TextBox ID="txtGrau" runat="server"></asp:TextBox>
+            <asp:TextBox ID="txtGrau" runat="server"required ></asp:TextBox>
             <br />
             <br />
             <asp:Label ID="lblModalidade" runat="server" Text="Modalidade: "></asp:Label>
-            <asp:DropDownList ID="ddlModalidade" runat="server" Font-Names="Segoe UI" ForeColor="Black" font-weight="lighter" DataSourceID="SqlDataSourceModalidade" DataTextField="nome" DataValueField="cod">
+            <asp:DropDownList ID="ddlModalidade" runat="server"required  Font-Names="Segoe UI" ForeColor="Black" font-weight="lighter" DataSourceID="SqlDataSourceModalidade" DataTextField="nome" DataValueField="cod">
             </asp:DropDownList>
             <asp:SqlDataSource ID="SqlDataSourceModalidade" runat="server" ConnectionString="<%$ ConnectionStrings:AAP-ITAQUAPASSE1ConnectionString %>" ProviderName="<%$ ConnectionStrings:AAP-ITAQUAPASSE1ConnectionString.ProviderName %>" SelectCommand="SELECT * FROM [modalidade]"></asp:SqlDataSource>
 <br />
             <br />
             <asp:Label ID="lblHoraAula" runat="server" Text="Horario de aula: "></asp:Label>
-            <asp:TextBox ID="txtHoraAula"  runat="server" type="time"></asp:TextBox>
+            <asp:TextBox ID="txtHoraAula"  runat="server" type="time" required ></asp:TextBox>
 &nbsp;
             <asp:Label ID="lblAs" runat="server" Text="ás "></asp:Label>
-&nbsp;<asp:TextBox ID="txtHoraAula2" runat="server" type="time" ></asp:TextBox>
+&nbsp;<asp:TextBox ID="txtHoraAula2" runat="server" type="time" required  ></asp:TextBox>
 &nbsp;&nbsp;
             <asp:Label ID="lblhora" runat="server" Text="hs."></asp:Label>
             &nbsp;

@@ -96,15 +96,6 @@ namespace AAP
         protected global::System.Web.UI.WebControls.Label lblIdade;
 
         /// <summary>
-        /// Controle txtIdade.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtIdade;
-
-        /// <summary>
         /// Controle lblEndereco.
         /// </summary>
         /// <remarks>
@@ -112,15 +103,6 @@ namespace AAP
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblEndereco;
-
-        /// <summary>
-        /// Controle txtEndereco.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtEndereco;
 
         /// <summary>
         /// Controle lblNumero.
@@ -132,15 +114,6 @@ namespace AAP
         protected global::System.Web.UI.WebControls.Label lblNumero;
 
         /// <summary>
-        /// Controle txtNumero.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtNumero;
-
-        /// <summary>
         /// Controle lblbairro.
         /// </summary>
         /// <remarks>
@@ -150,15 +123,6 @@ namespace AAP
         protected global::System.Web.UI.WebControls.Label lblbairro;
 
         /// <summary>
-        /// Controle txtBairro.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtBairro;
-
-        /// <summary>
         /// Controle lblCidade.
         /// </summary>
         /// <remarks>
@@ -166,15 +130,6 @@ namespace AAP
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblCidade;
-
-        /// <summary>
-        /// Controle txtCidade.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtCidade;
 
         /// <summary>
         /// Controle lblCep.
@@ -202,15 +157,6 @@ namespace AAP
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblEmail;
-
-        /// <summary>
-        /// Controle txtEmail.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtEmail;
 
         /// <summary>
         /// Controle lblFone.
@@ -285,15 +231,6 @@ namespace AAP
         protected global::System.Web.UI.WebControls.Label lblEscola;
 
         /// <summary>
-        /// Controle txtEscola.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtEscola;
-
-        /// <summary>
         /// Controle lblEnderecoE.
         /// </summary>
         /// <remarks>
@@ -301,15 +238,6 @@ namespace AAP
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblEnderecoE;
-
-        /// <summary>
-        /// Controle txtEnderecoE.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtEnderecoE;
 
         /// <summary>
         /// Controle lblNumeroE.
@@ -321,15 +249,6 @@ namespace AAP
         protected global::System.Web.UI.WebControls.Label lblNumeroE;
 
         /// <summary>
-        /// Controle txtNumeroE.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtNumeroE;
-
-        /// <summary>
         /// Controle lblbairroE.
         /// </summary>
         /// <remarks>
@@ -337,15 +256,6 @@ namespace AAP
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblbairroE;
-
-        /// <summary>
-        /// Controle txtBairroE.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtBairroE;
 
         /// <summary>
         /// Controle lblCidadeE.
@@ -393,15 +303,6 @@ namespace AAP
         protected global::System.Web.UI.WebControls.Label lblCurso;
 
         /// <summary>
-        /// Controle txtCurso.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtCurso;
-
-        /// <summary>
         /// Controle lblSerie.
         /// </summary>
         /// <remarks>
@@ -409,15 +310,6 @@ namespace AAP
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblSerie;
-
-        /// <summary>
-        /// Controle txtSerie.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtSerie;
 
         /// <summary>
         /// Controle lblGrau.
@@ -429,15 +321,6 @@ namespace AAP
         protected global::System.Web.UI.WebControls.Label lblGrau;
 
         /// <summary>
-        /// Controle txtGrau.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtGrau;
-
-        /// <summary>
         /// Controle lblModalidade.
         /// </summary>
         /// <remarks>
@@ -445,15 +328,6 @@ namespace AAP
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblModalidade;
-
-        /// <summary>
-        /// Controle ddlModalidade.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlModalidade;
 
         /// <summary>
         /// Controle SqlDataSourceModalidade.
