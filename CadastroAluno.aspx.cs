@@ -158,6 +158,31 @@ namespace AAP
             conn.Close();
             conn.Dispose();
             lblMensagem.Text = " Registro Excluído com sucesso";
+
+            txtRg.Text = "";
+            txtNome.Text = "";
+            txtNasc.Text = "";
+            txtIdade.Text = "";
+            txtEndereco.Text = "";
+            txtNumero.Text = "";
+            txtBairro.Text = "";
+            txtCidade.Text = "";
+            txtEmail.Text = "";
+            txtFone.Text = "";
+            txtFoneCom.Text = "";
+            txtFili.Text = "";
+            txtEscola.Text = "";
+            txtEnderecoE.Text = "";
+            txtBairroE.Text = "";
+            txtFoneEsc.Text = "";
+            txtCurso.Text = "";
+            txtSerie.Text = "";
+            txtGrau.Text = "";
+            txtHoraAula.Text = "";
+            txtHoraAula2.Text = "";
+            txtCep.Text = "";
+            ddlModalidade.SelectedIndex = -1;
+            txtNumeroE.Text = "";
         }
 
         protected void btnLimpar_Click(object sender, EventArgs e)
